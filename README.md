@@ -20,12 +20,13 @@ The modified Prim's algorithm with a restoration algorithm for power distributio
 
 ![image](https://user-images.githubusercontent.com/65055268/216766011-d67eed54-6809-44ff-95aa-64de0a42f4aa.png)
 
-☼ describes a method for finding the maximum spanning tree of a graph using Prim's algorithm, with a modified way of calculating the weights of the edges. 
+• describes a method for finding the maximum spanning tree of a graph using Prim's algorithm, with a modified way of calculating the weights of the edges. 
 
-☼ calculates the weights in such a way that the active power losses are minimized and the absolute value of the reactive power consumed by the grid is as close to zero as
-possible. 𝑤𝑘 = 𝑤1 (13) *𝑘 𝑐1 . 𝑝1 + 𝑤2*𝑘 𝑐2 . 𝑝2 + 𝑤3*𝑘 𝑐3 . 𝑝3
+• calculates the weights in such a way that the active power losses are minimized and the absolute value of the reactive power consumed by the grid close to zero. 
 
-☼ finds the maximum spanning tree by connecting the edges with the highest value of weights to the nodes, while the traditional Prim's algorithm connects the edges with
+                                   𝑤𝑘 = 𝑤1 (13) *𝑘 𝑐1 . 𝑝1 + 𝑤2*𝑘 𝑐2 . 𝑝2 + 𝑤3*𝑘 𝑐3 . 𝑝3
+
+• finds the maximum spanning tree by connecting the edges with the highest value of weights to the nodes, while the traditional Prim's algorithm connects the edges with
 the lowest value of weights to the nodes to find the minimum spanning tree.
 
 ### Reason for Modification
