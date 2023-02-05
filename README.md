@@ -2,6 +2,8 @@
 
 This is the modified prim algorithm, which uses restoration algorithm to restore the power system using renewable energy resources. It is based off the algorithm the paper [&#34;The Application of the Modified Prim&#39;s Algorithm to Restore the Power System Using Renewable Energy Sources&#34; by Artur Łukaszewski, Łukasz Nogal and Marcin Januszewski](https://doi.org/10.3390/sym14051012). 
 
+### Topic Report
+
 ### Original Prim algorithm
 
 Below is the flow of the original algorithm:
