@@ -6,6 +6,10 @@ This is the modified prim algorithm, which uses restoration algorithm to restore
 
 The report on the implemented topic can be found [here](https://docs.google.com/document/d/18zhmInsp95n1AAiWlAgtfPd9rRH4QXwyceHTpI-ce7I/edit?usp=sharing). 
 
+### Usage of the code 
+
+To execute the original algorithm, simply run the cell from 'original-prim.ipynb' file. To execute the modified algorithm, simply run the cell from 'modified-prim.ipynb' file.
+
 ### Original Prim algorithm
 
 Below is the flow of the original algorithm:
